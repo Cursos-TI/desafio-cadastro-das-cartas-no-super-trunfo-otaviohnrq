@@ -1,6 +1,25 @@
+/*
+ * Programa: Cadastro de Cartas do Jogo Super Trunfo - Nível Novato - Tema: Países
+ * Autor: Otávio Henrique Maia Santos
+ * Data: 21/05/2025
+ * Descrição: Este programa permite o cadastro e exibição de informações de duas cartas
+ * do jogo Super Trunfo, com tema de cidades brasileiras. Cada carta contém:
+ * - Estado (A a H)
+ * - Código (letra do estado + número da cidade)
+ * - Nome da cidade
+ * - População
+ * - Área
+ * - PIB
+ * - Número de pontos turísticos
+ *
+ * O programa lê os dados via terminal, armazena em variáveis apropriadas e exibe
+ * as informações de forma formatada.
+ */
+
+
 #include <stdio.h>
 
-int main() {
+int main() { // Declaração de variáveis
     // Carta 1
     char estado1;
     char codigo1[4];
